@@ -7,7 +7,7 @@ if (!userName) {
 }
 
 // Display a custom greeting message above the clock
-document.getElementById('greeting').textContent = `Hello, ${userName}! Welcome to your "time".`;
+document.getElementById('greeting').textContent = `Hello, ${userName}! Welcome to your "Me Time".`;
 
 // Create an Audio object for the tick sound
 const tickSound = new Audio('tick1.mp3');
