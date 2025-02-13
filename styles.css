@@ -1,0 +1,45 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a beautiful gradient background */
+  body {
+    background: linear-gradient(135deg, #1d2b64, #f8cdda);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+  }
+  
+  /* Container styling for the clock and greeting */
+  .clock-container {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  /* Greeting message styling */
+  #greeting {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Clock digits styling */
+  #clock {
+    font-size: 60px;
+    letter-spacing: 3px;
+  }
+  
+  /* Date display styling */
+  #date {
+    margin-top: 15px;
+    font-size: 24px;
+  }
+  
